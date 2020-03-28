@@ -1,0 +1,15 @@
+server:
+  port: 3344
+
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:li671207/microservicecloud-config.git
+          search-paths:
+            - microservicecloud-config
+          default-label: master
+

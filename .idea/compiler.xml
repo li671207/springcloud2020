@@ -8,6 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="cloud-api-commons" />
+        <module name="cloud-config-center3344" />
+        <module name="cloud-config-client3355" />
+        <module name="cloud-config-client3366" />
         <module name="cloud-consumer-feign-hystrix-order80" />
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-consumer-hystrix-dashboard9001" />
@@ -22,6 +25,7 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-zuul-gateway-9527" />
       </profile>
     </annotationProcessing>
