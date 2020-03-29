@@ -9,7 +9,7 @@ spring:
     base-url: http://localhost:9411
   sleuth:
     sampler:
-      probability: 1 #采样值，0-1之间，1表示全部采集
+      probability: 1 #采样值，0-1之间，1表示采集全部
 eureka:
   client:
     register-with-eureka: true
