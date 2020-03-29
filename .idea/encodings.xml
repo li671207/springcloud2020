@@ -20,6 +20,10 @@
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8002" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-provider-payment8004" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/cloud-providerconsul-payment8006" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8802" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-consumer8803" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/cloud-stream-rabbitmq-provider8801" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-config-3344" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/microservicecloud-zuul-gateway-9527" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />

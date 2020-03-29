@@ -25,6 +25,9 @@
         <module name="cloud-provider-payment8002" />
         <module name="cloud-provider-payment8004" />
         <module name="cloud-providerconsul-payment8006" />
+        <module name="cloud-stream-rabbitmq-consumer8802" />
+        <module name="cloud-stream-rabbitmq-consumer8803" />
+        <module name="cloud-stream-rabbitmq-provider8801" />
         <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-zuul-gateway-9527" />
       </profile>
