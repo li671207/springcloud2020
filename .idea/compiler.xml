@@ -28,6 +28,10 @@
         <module name="cloud-stream-rabbitmq-consumer8802" />
         <module name="cloud-stream-rabbitmq-consumer8803" />
         <module name="cloud-stream-rabbitmq-provider8801" />
+        <module name="cloudalibaba-config-nacos-client3377" />
+        <module name="cloudalibaba-consumer-nacos-order83" />
+        <module name="cloudalibaba-provider-payment9001" />
+        <module name="cloudalibaba-provider-payment9002" />
         <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-zuul-gateway-9527" />
       </profile>
