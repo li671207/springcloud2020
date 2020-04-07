@@ -1,0 +1,23 @@
+server:
+  port: 84
+spring:
+  application:
+    name: cloudalibaba-sentinel-service
+  cloud:
+    nacos:
+      discovery:
+        #nacos注册中心
+        server-addr: localhost:8848
+    sentinel:
+      transport:
+        #sentinel地址
+        dashboard: localhost:8080
+        #默认8719端口，被占用会自动+1，直至找到未被占用的端口
+        port: 8719
+#消费者访问的微服务名称(注册进nacos的微服务提供者)
+server-url:
+  nacos-user-sevice: http://nacos-payment-provider
+
+feign:
+  sentinel:
+    enabled: true
