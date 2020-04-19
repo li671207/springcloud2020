@@ -38,7 +38,9 @@
         <module name="cloudalibaba-sentinel-server8401" />
         <module name="microservicecloud-config-3344" />
         <module name="microservicecloud-zuul-gateway-9527" />
+        <module name="seata-account-service2003" />
         <module name="seata-order-service2001" />
+        <module name="seata-storage-service2002" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>

@@ -4,11 +4,11 @@
 
     <resultMap id="BaseResultMap" type="com.lihl.springcloud.alibaba.domain.Order">
         <id column="id" property="id" jdbcType="BIGINT"/>
-        <id column="user_id" property="userId" jdbcType="BIGINT"/>
-        <id column="product_id" property="productId" jdbcType="BIGINT"/>
-        <id column="count" property="count" jdbcType="INTEGER"/>
-        <id column="money" property="money" jdbcType="DECIMAL"/>
-        <id column="status" property="status" jdbcType="INTEGER"/>
+        <result column="user_id" property="userId" jdbcType="BIGINT"/>
+        <result column="product_id" property="productId" jdbcType="BIGINT"/>
+        <result column="count" property="count" jdbcType="INTEGER"/>
+        <result column="money" property="money" jdbcType="DECIMAL"/>
+        <result column="status" property="status" jdbcType="INTEGER"/>
     </resultMap>
     
     <insert id="create">

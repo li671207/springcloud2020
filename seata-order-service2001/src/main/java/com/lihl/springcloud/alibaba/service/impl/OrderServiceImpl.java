@@ -5,6 +5,7 @@ import com.lihl.springcloud.alibaba.domain.Order;
 import com.lihl.springcloud.alibaba.service.AccountService;
 import com.lihl.springcloud.alibaba.service.OrderService;
 import com.lihl.springcloud.alibaba.service.StorageService;
+import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
 
@@ -23,13 +24,14 @@ public class OrderServiceImpl implements OrderService {
 
 
     @Override
+    @GlobalTransactional(name = "fsp_create_order", rollbackFor = Exception.class)
     public void create(Order order) {
         log.info("******创建订单******");
         orderDao.create(order);
-        log.info("******修改库存******");
-        storageService.decrease(order.getProductId(), order.getCount());
         log.info("******扣减账户******");
         accountService.decrease(order.getUserId(), order.getMoney());
+        log.info("******修改库存******");
+        storageService.decrease(order.getProductId(), order.getCount());
         log.info("******修改订单状态******");
         orderDao.update(order.getUserId(), 0);
 
